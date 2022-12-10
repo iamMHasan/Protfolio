@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='flex justify-center flex-col items-center font-Righteous mt-4 '>
+        <div className='flex justify-center flex-col items-center font-Righteous mt-4 p-8'>
             <h1 className="text-3xl md:text-4xl text-black">Right now i am looking for <span className='text-black/60'>oppurtunity</span></h1>
             <h1 className="text-xl md:text-2xl text-black">Reach me <span className='text-black/60'>at</span></h1>
             <form action="https://formsubmit.co/abcimhasanbro@gmail.com" method="POST" className='flex justify-center flex-col items-center '>
