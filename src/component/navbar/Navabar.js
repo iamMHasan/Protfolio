@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Navabar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,17 +10,20 @@ const Navabar = () => {
     // </>
 
     return (
-        <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="px-4 py-2 bg-transparent mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div class="relative flex items-center justify-between">
                 <div class="flex items-center">
                     <ul class="flex items-center hidden space-x-8 lg:flex">
                         <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
                             Contact
                         </li>
+                        <li className='font-semibold  cursor-pointer cursor'>
+                            <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://docs.google.com/document/d/1ycRp8coSvB-bMFDDFuWEx1W17p-kVPxLIBiirdSxSfg/edit?usp=sharing">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
+                        </li>
                     </ul>
-                        
+
                 </div>
-                <ul class="flex items-center hidden space-x-8 lg:flex">
+                {/* <ul class="flex items-center hidden space-x-8 lg:flex">
                     <li>
 
                         <a
@@ -31,7 +35,7 @@ const Navabar = () => {
                             Sign in
                         </a>
                     </li>
-                </ul>
+                </ul> */}
                 <div class="lg:hidden">
                     <button
                         aria-label="Open Menu"
@@ -86,48 +90,11 @@ const Navabar = () => {
                                                 title="Our product"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
-                                                Product
+                                                Contact
                                             </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="/"
-                                                aria-label="Our product"
-                                                title="Our product"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                Features
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="/"
-                                                aria-label="Product pricing"
-                                                title="Product pricing"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                Pricing
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="/"
-                                                aria-label="About us"
-                                                title="About us"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                About us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="/"
-                                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                                                aria-label="Sign up"
-                                                title="Sign up"
-                                            >
-                                                Sign up
-                                            </a>
+                                            <li className='font-semibold  cursor-pointer cursor'>
+                                                <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://docs.google.com/document/d/1ycRp8coSvB-bMFDDFuWEx1W17p-kVPxLIBiirdSxSfg/edit?usp=sharing">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
+                                            </li>
                                         </li>
                                     </ul>
                                 </nav>
