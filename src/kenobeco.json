@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Keno Beco",
+        "para": "A multi role web app for cycle re-sale",
+        "titleimage": "https://i.ibb.co/PYKQNcq/project1.png",
+        "live": "https://kinobeco.firebaseapp.com/",
+        "client": "https://github.com/iamMHasan/kenoBeco",
+        "code": "https://github.com/iamMHasan/Keno-Beco-server",
+        "image1": "https://i.ibb.co/wsc7yhH/k2.png",
+        "image2": "https://i.ibb.co/SK27v5j/k3.png",
+        "image3": "https://i.ibb.co/8mNVzhV/k4.png",
+        "image4": "https://i.ibb.co/1nYsqyq/k5.png",
+        "imge1Details": "Buyer can browse products without login. With login he can purchase or bookmark the order",
+        "imgae2Details": "Seller can add a new prodcut or see, update, delete the listed product he added recently",
+        "image3Details": "Admin can see all the sellers and buyers. He also has capability to delete any seller/buyer",
+        "image4Details": "Buyer can see, delete his bookmarked product and buy this product using stripe.",
+        "aboutProject": "KenoBeco is a online resale bycycle marketplace. Where customer can wishlist prodcut and buy. Seller can add a new prodcut",
+        "technology": [
+            "React",
+            "React-router-dom",
+            "Tailwind",
+            "Express js",
+            "Mongodb",
+            "jstoken"
+        ]
+    },
+    {
+        "title": "Skill Hero",
+        "para": "An educational website to buy courses",
+        "titleimage": "https://i.ibb.co/3FrpY20/project3.png",
+        "live": "https://skill-hero-a043c.web.app/",
+        "client": "https://github.com/iamMHasan/skill-hero",
+        "code": "https://github.com/iamMHasan/skill-hero-server",
+        "image1": "https://i.ibb.co/gV4MNqY/s1.png",
+        "imge1Details": "Buyer can browse products without login. With login he can purchase or bookmark the order",
+        "aboutProject": "Skill Hero is an online based web platform where user can buy different courses",
+        "technology": [
+            "React",
+            "React-router-dom",
+            "Tailwind",
+            "DaisyUi"
+        ]
+    },
+    {
+        "title": "Max Dental",
+        "para": "A individual doctor website who offer dental service",
+        "titleimage": "https://i.ibb.co/72Cwn56/project2.png",
+        "live": "https://max-denatal.web.app/",
+        "client": "https://github.com/iamMHasan/Max-dental-client",
+        "code": "https://github.com/iamMHasan/max-dental-server",
+        "image1": "https://i.ibb.co/W3W6m4H/d1.png",
+        "image2": "https://i.ibb.co/M2FZtHX/d2.png",
+        "image3": "https://i.ibb.co/nrDx5Ry/d3.png",
+        "image4": "",
+        "imge1Details": "User can browse services and see details without login",
+        "imgae2Details": "After login user can add a service feedback and see others also",
+        "image3Details": "User can delete, update his review on dashboard",
+        "image4Details": "",
+        "aboutProject": "Max Dental is a individual doctor website who offer dental service. User can browse service, add, update and delete a service review.",
+        "technology": [
+            "React",
+            "React-router-dom",
+            "Tailwind",
+            "DaisyUi",
+            "React hot toast"
+        ]
+    }
+]

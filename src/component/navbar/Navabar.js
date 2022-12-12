@@ -15,7 +15,13 @@ const Navabar = () => {
                 <div class="flex items-center">
                     <ul class="flex items-center hidden space-x-8 lg:flex">
                         <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                            Contact
+                            <Link to='/'>Home</Link>
+                        </li>
+                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                            <Link to='/blogs'>Blogs</Link>
+                        </li>
+                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                            <Link to='/aboutme'>About Me</Link>
                         </li>
                         <li className='font-semibold  cursor-pointer cursor'>
                             <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://docs.google.com/document/d/1ycRp8coSvB-bMFDDFuWEx1W17p-kVPxLIBiirdSxSfg/edit?usp=sharing">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
@@ -82,16 +88,14 @@ const Navabar = () => {
                                     </div>
                                 </div>
                                 <nav>
-                                    <ul class="space-y-4">
+                                    <ul class="space-y-6">
                                         <li>
-                                            <a
-                                                href="/"
-                                                aria-label="Our product"
-                                                title="Our product"
-                                                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                            >
-                                                Contact
-                                            </a>
+                                            <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                                <Link to='/blogs'>Blogs</Link>
+                                            </li>
+                                            <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                                <Link to='/aboutme'>About Me</Link>
+                                            </li>
                                             <li className='font-semibold  cursor-pointer cursor'>
                                                 <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://docs.google.com/document/d/1ycRp8coSvB-bMFDDFuWEx1W17p-kVPxLIBiirdSxSfg/edit?usp=sharing">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
                                             </li>

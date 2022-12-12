@@ -1,0 +1,17 @@
+
+    {
+       
+        "imge1Details" : "Buyer can browse products without login. With login he can purchase or bookmark the order",
+        "imgae2Details" : "Seller can add a new prodcut or see, update, delete the listed product he added recently",
+        "image3Details" : "Admin can see all the sellers and buyers. He also has capability to delete any seller/buyer",
+        "image4Details" : "Buyer can see, delete his bookmarked product and buy this product using stripe.",
+        "image1" : "https://i.ibb.co/wsc7yhH/k2.png",
+        "image2" : "https://i.ibb.co/SK27v5j/k3.png",
+        "image3" : "https://i.ibb.co/8mNVzhV/k4.png",
+        "image4" : "https://i.ibb.co/1nYsqyq/k5.png",
+        "client-code" : "https://github.com/iamMHasan/kenoBeco",
+        "server-code" : "https://github.com/iamMHasan/Keno-Beco-server",
+        "live" : "https://kinobeco.firebaseapp.com/",
+        "aboutProject" : "KenoBeco is a online resale bycycle marketplace. Where customer can wishlist prodcut and buy. Seller can add a new prodcut",
+        "technology" : ["React", "React-router-dom", "Tailwind", "Express js", "Mongodb", "jstoken"]
+    }
