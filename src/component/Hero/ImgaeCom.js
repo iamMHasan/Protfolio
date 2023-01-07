@@ -1,8 +1,11 @@
 import React from 'react';
 
-const ImgaeCom = ({src}) => {
+const ImgaeCom = ({src,skill}) => {
     return (
-        <img className='w-10 md:w-40 h-10 md:h-40' src={src} alt="" />
+        <div className='flex items-center justify-center gap-2'>
+            <img className='w-[30px] h-[30px] gap-2' src={src} alt="" />
+            <p>{skill}</p>
+        </div>
     );
 };
 

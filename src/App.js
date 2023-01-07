@@ -33,7 +33,7 @@ function App() {
     }
   ])
   return (
-    <div className="md:w-[1240px] mx-auto">
+    <div className=" mx-auto">
      <RouterProvider router={router}></RouterProvider>
     </div>
   );

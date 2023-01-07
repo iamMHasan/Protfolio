@@ -4,13 +4,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Navabar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    // const menu = <>
-    //     <Link to='/'>Home</Link>,
-    //     <Link to='/'>Contact </Link>
-    // </>
 
     return (
-        <div class="px-4 py-2 bg-transparent mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="px-4 py-2 bg-transparent sticky-top mx-auto sm:max-w-xl md:max-w-full text-white lg:max-w-screen-xl md:px-24 lg:px-8">
             <div class="relative flex items-center justify-between">
                 <div class="flex items-center">
                     <ul class="flex items-center hidden space-x-8 lg:flex">
@@ -18,13 +14,10 @@ const Navabar = () => {
                             <Link to='/'>Home</Link>
                         </li>
                         <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                            <Link to='/blogs'>Blogs</Link>
-                        </li>
-                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                            <Link to='/aboutme'>About Me</Link>
+                            <Link to='#aboutme'>About Me</Link>
                         </li>
                         <li className='font-semibold  cursor-pointer cursor'>
-                            <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://docs.google.com/document/d/1ycRp8coSvB-bMFDDFuWEx1W17p-kVPxLIBiirdSxSfg/edit?usp=sharing">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
+                            <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://drive.google.com/file/d/1nEcGPIuArwdwBfoN5uMHrLPe9g5mdJtW/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
                         </li>
                     </ul>
 
@@ -90,6 +83,9 @@ const Navabar = () => {
                                 <nav>
                                     <ul class="space-y-6">
                                         <li>
+                                            <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                                <Link to='/'>Home</Link>
+                                            </li>
                                             <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
                                                 <Link to='/blogs'>Blogs</Link>
                                             </li>

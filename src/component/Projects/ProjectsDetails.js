@@ -7,7 +7,7 @@ const ProjectsDetails = () => {
     console.log(data);
     const { client, code, live, image1, image2, image3,image4, imge1Details,image4Details, imgae2Details, image3Details } = data
     return (
-        <div className='p-2 bg-white/90'>
+        <div className='p-2 bg-white/90 w-[1240px] mx-auto'>
             <h1 className="text-2xl font-semibold my-2">Projects Link</h1>
             <div className="flex gap-3 mb-4">
                 <a target='_blank' rel="noreferrer" href={live}>

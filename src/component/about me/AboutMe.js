@@ -1,37 +1,20 @@
-import React, { useState } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-
+import React from 'react';
+import Lottie from "lottie-react";
+import avatar from '../../assets/91956-work-from-home.json'
+import Textstyle from '../Textstyle';
 
 const AboutMe = () => {
-    const [tabIndex, setTabIndex] = useState(0);
-    return (
-        <div className='md:w-[50%] mx-auto p-3'>
-            <h1 className="text-2xl text-center font-semibold my-4">About me a little</h1>
-            <Tabs className={'text-green-600'} selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-                <TabList className={'bg-black react-tabs__tab--selected my-4 '}>
-                    <Tab >About Me</Tab>
-                    <Tab>Education</Tab>
-                    <Tab>Skills</Tab>
-                </TabList>
+  return (
+    <div id='aboutme' className='flex justify-center flex-col items-center w-[90%] mx-auto font-Righteous text-center'>
+      <Textstyle firstletter={'About'} secondletter={'Me'}></Textstyle>
+      <Lottie animationData={avatar} loop={true} style={ {height: 500}}></Lottie>
+      <h1 className="text-bsase text-white">I am a specialized 𝙁𝙧𝙤𝙣𝙩-𝙚𝙣𝙙 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 with a focus on building scalable and efficient web applications using 𝙍𝙚𝙖𝙘𝙩𝙅𝙎. I have a strong understanding of the React ecosystem and a track record of delivering high-quality web applications. My skills include proficiency in JavaScript, HTML, CSS, Javascript, and Git. I have developed and maintained multiple single-page applications using React js as part of my coursework.
 
-                <TabPanel>
-                    <h2>Hi! I am Mohammed Hasan, a web developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers. I enjoy creating beautifully designed, intuitive and functional websites.</h2>
-                </TabPanel>
-                <TabPanel>
-                    <h2>BBA from National University</h2>
-                </TabPanel>
-                <TabPanel>
-                    <ul>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Mongodb</li>
-                        <li>Express js</li>
-                    </ul>
-                </TabPanel>
-            </Tabs>
-        </div>
-    );
+Also, I am comfortable with 𝙉𝙤𝙙𝙚.𝙟𝙨, 𝙀𝙭𝙥𝙧𝙚𝙨𝙨.𝙟𝙨, 𝙈𝙤𝙣𝙜𝙤𝘿𝘽. I have developed and maintained multiple server-side applications using the Express.js framework.
+
+I am looking for a junior developer position where I can apply my skills and continue learning from experienced professionals. I am eager to contribute to a team and make a positive impact with my work.</h1>
+    </div>
+  );
 };
 
 export default AboutMe;
