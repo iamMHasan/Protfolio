@@ -3,7 +3,7 @@ import Textstyle from '../Textstyle';
 
 const Contact = () => {
     return (
-        <div className='flex justify-center flex-col items-center font-Righteous mt-4 p-8'>
+        <div id='contact' className='flex justify-center flex-col items-center font-Righteous mt-4 p-8'>
             <Textstyle firstletter={'Reach'} secondletter={'Me'}></Textstyle>
             <form action="https://formsubmit.co/abcimhasanbro@gmail.com" method="POST" className='flex justify-center flex-col items-center '>
                 <input required type="email" name='email' placeholder="your mail" className="input input-bordered border-success my-2  w-[90vw] md:w-[40vw] mt-4" />

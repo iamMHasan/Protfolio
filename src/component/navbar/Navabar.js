@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { NavHashLink } from 'react-router-hash-link'
 
 const Navabar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,10 +12,61 @@ const Navabar = () => {
                 <div class="flex items-center">
                     <ul class="flex items-center hidden space-x-8 lg:flex">
                         <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                            <Link to='/'>Home</Link>
+                            <NavHashLink
+                                smooth
+                                to="#home"
+                                activeClassName="selected"
+                                activeStyle={{ color: 'red' }}
+                            // etc...
+                            >Home</NavHashLink>
                         </li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg>
                         <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                            <Link to='#aboutme'>About Me</Link>
+                            <NavHashLink
+                                smooth
+                                to="#aboutme"
+                                activeClassName="selected"
+                                activeStyle={{ color: 'red' }}
+                            // etc...
+                            >About me</NavHashLink>
+                        </li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg>
+                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                            <NavHashLink
+                                smooth
+                                to="#skills"
+                                activeClassName="selected"
+                                activeStyle={{ color: 'red' }}
+                            // etc...
+                            >Skills</NavHashLink>
+                        </li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg>
+                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                            <NavHashLink
+                                smooth
+                                to="#projects"
+                                activeClassName="selected"
+                                activeStyle={{ color: 'red' }}
+                            // etc...
+                            >Projects</NavHashLink>
+                        </li>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg>
+                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                            <NavHashLink
+                                smooth
+                                to="#contact"
+                                activeClassName="selected"
+                                activeStyle={{ color: 'red' }}
+                            // etc...
+                            >Contacts</NavHashLink>
                         </li>
                         <li className='font-semibold  cursor-pointer cursor'>
                             <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://drive.google.com/file/d/1nEcGPIuArwdwBfoN5uMHrLPe9g5mdJtW/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
@@ -22,19 +74,6 @@ const Navabar = () => {
                     </ul>
 
                 </div>
-                {/* <ul class="flex items-center hidden space-x-8 lg:flex">
-                    <li>
-
-                        <a
-                            href="/"
-                            aria-label="Sign in"
-                            title="Sign in"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                            Sign in
-                        </a>
-                    </li>
-                </ul> */}
                 <div class="lg:hidden">
                     <button
                         aria-label="Open Menu"
@@ -81,20 +120,43 @@ const Navabar = () => {
                                     </div>
                                 </div>
                                 <nav>
-                                    <ul class="space-y-6">
-                                        <li>
-                                            <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                                                <Link to='/'>Home</Link>
-                                            </li>
-                                            <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                                                <Link to='/blogs'>Blogs</Link>
-                                            </li>
-                                            <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
-                                                <Link to='/aboutme'>About Me</Link>
-                                            </li>
-                                            <li className='font-semibold  cursor-pointer cursor'>
-                                                <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://docs.google.com/document/d/1ycRp8coSvB-bMFDDFuWEx1W17p-kVPxLIBiirdSxSfg/edit?usp=sharing">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
-                                            </li>
+                                    <ul className="flex items-center justify-center flex-col text-gray-600 space-x-8 lg:flex space-y-1">
+                                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                            <NavHashLink
+                                                smooth
+                                                to="#home"
+                                            >Home</NavHashLink>
+                                        </li>
+                                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                            <NavHashLink
+                                                smooth
+                                                to="#aboutme"
+                                            // etc...
+                                            >About me</NavHashLink>
+                                        </li>
+                                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                            <NavHashLink
+                                                smooth
+                                                to="#skills"
+                                            // etc...
+                                            >Skills</NavHashLink>
+                                        </li>
+                                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                            <NavHashLink
+                                                smooth
+                                                to="#projects"
+                                            // etc...
+                                            >Projects</NavHashLink>
+                                        </li>
+                                        <li className='font-semibold hover:border-b-4 border-indigo-600 cursor-pointer cursor'>
+                                            <NavHashLink
+                                                smooth
+                                                to="#contact"
+                                            // etc...
+                                            >Contacts</NavHashLink>
+                                        </li>
+                                        <li className='font-semibold  cursor-pointer cursor'>
+                                            <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://drive.google.com/file/d/1nEcGPIuArwdwBfoN5uMHrLPe9g5mdJtW/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
                                         </li>
                                     </ul>
                                 </nav>

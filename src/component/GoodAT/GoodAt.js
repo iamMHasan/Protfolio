@@ -21,10 +21,10 @@ import Textstyle from '../Textstyle';
 
 const GoodAt = () => {
     return (
-        <div className=' text-white flex justify-center flex-col items-center font-Righteous my-10 '>
+        <div id='skills' className=' text-white flex justify-center flex-col items-center font-Righteous my-10 '>
             <Textstyle firstletter={'Core'} secondletter={'Skills'}/>
             <div className="flex flex-wrap justify-center items-center gap-4 mt-4 p-4 md:p-0">
-                <ImgaeCom src={js} skill={"Javascript"}></ImgaeCom>
+                <ImgaeCom className='' src={js} skill={"Javascript"}></ImgaeCom>
                 <ImgaeCom src={react} skill={"React"}></ImgaeCom>
                 <ImgaeCom src={node} skill={"Node js"}></ImgaeCom>
                 <ImgaeCom src={express} skill={"Express js"}></ImgaeCom>

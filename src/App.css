@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.scrollable-content {
+  /* Set the max-height and overflow to enable scrolling */
+  max-height: 100vh;
+  overflow: auto;
+}
+
+/* Target the scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: auto;
+  background-color: #bde813;
+  border-radius: 4px;
+}
+
+/* Target the thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

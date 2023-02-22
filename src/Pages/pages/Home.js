@@ -9,13 +9,15 @@ import ProjectsMap from '../../component/Projects/ProjectsMap';
 
 const Home = () => {
     return (
-        <div>
-            <Hero />
-           <AboutMe/>
-            <GoodAt />
-           <ProjectsMap/>
-            <Contact />
-            <Tab/>
+        <div className=''>
+            {/* <Scrollbars style={{ height: 300 }}> */}
+                <Hero />
+                <AboutMe />
+                <GoodAt />
+                <ProjectsMap />
+                <Contact />
+                <Tab />
+            {/* </Scrollbars> */}
         </div>
     );
 };

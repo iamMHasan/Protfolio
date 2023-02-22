@@ -133,7 +133,7 @@ const Hero = () => {
                     }
                 }}
             />
-            <div className='overflow-x-hidden text-center md:p-0 text-white h-[100vh] flex justify-center flex-col items-center font-Righteous'>
+            <div id='home' className='overflow-x-hidden text-center md:p-0 text-white h-[100vh] flex justify-center flex-col items-center font-Righteous'>
 
             <h1 className="text-5xl mb-4">Hello, This is Hasan, Nice to meet you! </h1>
                 <div className="flex mb-4">
