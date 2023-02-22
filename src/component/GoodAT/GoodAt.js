@@ -15,6 +15,7 @@ import ps from '../../assets2/ps.png'
 import figma from '../../assets2/figma.svg'
 import tailwind from '../../assets2/tailwind.png'
 import bootstrap from '../../assets2/bootstrap.png'
+import redux from '../../assets2/redux.png'
 
 import ImgaeCom from '../Hero/ImgaeCom';
 import Textstyle from '../Textstyle';
@@ -26,6 +27,7 @@ const GoodAt = () => {
             <div className="flex flex-wrap justify-center items-center gap-4 mt-4 p-4 md:p-0">
                 <ImgaeCom className='' src={js} skill={"Javascript"}></ImgaeCom>
                 <ImgaeCom src={react} skill={"React"}></ImgaeCom>
+                <ImgaeCom src={redux} skill={"Redux"}></ImgaeCom>
                 <ImgaeCom src={node} skill={"Node js"}></ImgaeCom>
                 <ImgaeCom src={express} skill={"Express js"}></ImgaeCom>
                 <ImgaeCom src={mongodb} skill={"Mogodb"}></ImgaeCom>

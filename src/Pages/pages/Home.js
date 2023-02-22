@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutMe from '../../component/about me/AboutMe';
-import Tab from '../../component/about me/Tab';
 import Contact from '../../component/Contact/Contact';
 import GoodAt from '../../component/GoodAT/GoodAt';
 import Hero from '../../component/Hero/Hero';
@@ -16,7 +15,6 @@ const Home = () => {
                 <GoodAt />
                 <ProjectsMap />
                 <Contact />
-                <Tab />
             {/* </Scrollbars> */}
         </div>
     );

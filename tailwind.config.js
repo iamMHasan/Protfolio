@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily : {
-        'Righteous' : ['Righteous']
+        'Righteous' : ['Righteous'],
+        'Gloock' : [ 'Gloock', 'serif']
       }
     },
   },

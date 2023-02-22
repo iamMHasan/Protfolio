@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div id='aboutme' className='flex justify-center flex-col items-center w-[90%] mx-auto font-Righteous text-center'>
       <Textstyle firstletter={'About'} secondletter={'Me'}></Textstyle>
       <Lottie animationData={avatar} loop={true} style={ {height: 500}}></Lottie>
-      <h1 className="text-bsase text-white">I am a specialized 𝙁𝙧𝙤𝙣𝙩-𝙚𝙣𝙙 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 with a focus on building scalable and efficient web applications using 𝙍𝙚𝙖𝙘𝙩𝙅𝙎. I have a strong understanding of the React ecosystem and a track record of delivering high-quality web applications. My skills include proficiency in JavaScript, HTML, CSS, Javascript, and Git. I have developed and maintained multiple single-page applications using React js as part of my coursework.
+      <h1 className="text-bsase text-white">My name is Hasan. I am a specialized Web developer  with a focus on building scalable and efficient web applications using 𝙍𝙚𝙖𝙘𝙩𝙅𝙎, Javascript. I have a strong understanding of the React ecosystem and a track record of delivering high-quality web applications. My skills include proficiency in JavaScript, HTML, CSS, Javascript, and Git. I have developed and maintained multiple single-page applications using React js as part of my coursework. <br/> <br/>
 
 Also, I am comfortable with 𝙉𝙤𝙙𝙚.𝙟𝙨, 𝙀𝙭𝙥𝙧𝙚𝙨𝙨.𝙟𝙨, 𝙈𝙤𝙣𝙜𝙤𝘿𝘽. I have developed and maintained multiple server-side applications using the Express.js framework.
 

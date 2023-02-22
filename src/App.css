@@ -36,7 +36,7 @@
 
 /* Target the scroll bar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 4px;
   height: auto;
   background-color: #bde813;
   border-radius: 4px;

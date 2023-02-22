@@ -133,9 +133,9 @@ const Hero = () => {
                     }
                 }}
             />
-            <div id='home' className='overflow-x-hidden text-center md:p-0 text-white h-[100vh] flex justify-center flex-col items-center font-Righteous'>
+            <div id='home' className='overflow-x-hidden text-center md:p-0 text-white w-[90%] mx-auto h-[100vh] flex justify-center flex-col items-center font-Gloock'>
 
-            <h1 className="text-5xl mb-4">Hello, This is Hasan, Nice to meet you! </h1>
+            <h1 className="text-3xl mb-4">"Web development is not just about creating pretty layouts. It's about understanding the user's needs and crafting a seamless experience that exceeds their expectations" </h1>
                 <div className="flex mb-4">
                     <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/mohammedhasan1/"><AiFillLinkedin size={30} className='text-white hover:text-white/70' /></a>
                     <a target='_blank' rel="noreferrer" href="https://github.com/iamMHasan"><AiFillGithub size={30} className='text-white hover:text-white/70  ' /></a>
