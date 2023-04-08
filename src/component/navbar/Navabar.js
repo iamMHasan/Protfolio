@@ -59,7 +59,7 @@ const Navabar = () => {
                             >Contacts</NavHashLink>
                         </li>
                         <li className='font-semibold  cursor-pointer cursor'>
-                            <a target='_blank' rel="noreferrer" className='btn bg-black text-[#bde813] ' href="https://drive.google.com/file/d/1nEcGPIuArwdwBfoN5uMHrLPe9g5mdJtW/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
+                            <a target='_blank' rel="noreferrer" className='btn bg-black text-[#bde813] ' href="https://drive.google.com/file/d/1xWJafNv68S4XGDpK5uSqtmi_GRW6Ao1o/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
                         </li>
                     </ul>
 
@@ -146,7 +146,7 @@ const Navabar = () => {
                                             >Contacts</NavHashLink>
                                         </li>
                                         <li className='font-semibold  cursor-pointer cursor'>
-                                            <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://drive.google.com/file/d/1nEcGPIuArwdwBfoN5uMHrLPe9g5mdJtW/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
+                                            <a target='_blank' rel="noreferrer" className='btn bg-black' href="https://drive.google.com/file/d/1xWJafNv68S4XGDpK5uSqtmi_GRW6Ao1o/view?usp=share_link">View Resume <AiOutlineArrowRight className='ml-2'></AiOutlineArrowRight></a>
                                         </li>
                                     </ul>
                                 </nav>

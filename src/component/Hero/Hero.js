@@ -8,10 +8,6 @@ import { loadFull } from "tsparticles";
 
 const Hero = () => {
     const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
         await loadFull(engine);
     }, []);
 
@@ -135,7 +131,7 @@ const Hero = () => {
             />
             <div id='home' className='overflow-x-hidden text-center md:p-0 text-white w-[90%] mx-auto h-[100vh] flex justify-center flex-col items-center font-Gloock'>
 
-            <h1 className="text-3xl mb-4">"Web development is not just about creating pretty layouts. It's about understanding the user's needs and crafting a seamless experience that exceeds their expectations" </h1>
+            <h1 className="text-3xl mb-4">Welcome! To learn more, simply scroll down... </h1>
                 <div className="flex mb-4">
                     <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/mohammedhasan1/"><AiFillLinkedin size={30} className='text-white hover:text-white/70' /></a>
                     <a target='_blank' rel="noreferrer" href="https://github.com/iamMHasan"><AiFillGithub size={30} className='text-white hover:text-white/70  ' /></a>

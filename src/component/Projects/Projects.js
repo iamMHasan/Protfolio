@@ -48,7 +48,7 @@ const Projects = ({ project }) => {
           </div>
           <div className="flex justify-between">
           <h3 className="text-lg font-medium text-gray-800 mb-2">{title}</h3>
-          <Link to={`/projects/${_id}`} className="flex items-center" href="/"> Details <AiOutlineArrowRight /></Link>
+          {/* <Link to={`/projects/${_id}`} className="flex items-center" href="/"> Details <AiOutlineArrowRight /></Link> */}
           </div>
           <p className="text-gray-400">{para}</p>
         </div>
